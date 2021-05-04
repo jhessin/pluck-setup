@@ -30,6 +30,7 @@ allow github.com
 allow github.io
 allow githubusercontent.com
 allow gitignore.io
+allow gnu.org
 allow godtube.com
 allow gominno.com
 allow google.com
@@ -72,6 +73,7 @@ allow watchgofish.com
 allow yarnpkg.com
 allow zendesk.com
 allow zenva.com
+allow zsh.org
 allow 10.0.0.1
 allow 127.0.0.1
 allow application/octet-stream
