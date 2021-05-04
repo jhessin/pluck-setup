@@ -10,8 +10,11 @@ fi
 
 cd $HOME/pluck-setup
 
-sudo ./pluck.installer
+sudo ./pluck.installer || echo "
+Please visit http://pluckeye.net to download pluckeye
+Then run this setup again.
+  "
 
-sudo apt remove firefox
+  sudo apt remove firefox
 
-pluck import pluck.settings
+  pluck import pluck.settings
